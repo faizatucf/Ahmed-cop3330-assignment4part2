@@ -1,0 +1,44 @@
+@startuml
+
+class Main {
+  +main(String [] args):void
+  +start(Stage primaryStage):void
+}
+
+class Application {
+}
+
+class list {
+  -task:String
+  -date:String
+  -status:Boolean
+  +getTask():String
+  +getDate():String
+  +getstatus():boolean
+  +isChecked():ObservableBooleanValue
+  +setTask(task:String):void
+  +setDate(date:String):void
+  +setstatus(status:boolean):void
+  +selectedProperty():ObservableValue<Boolean>
+
+}
+
+class Controller {
+  +Add_task_button():void
+  +check_button():void
+  +delete_button():void
+  +initialize(url:URL, rb:ResourceBundle):void
+  +check_date_format(date:String):LocalDate
+  +export(result:String):void
+  +resume(filename:String):void
+  +load():void
+  +menu_save():void
+  +Show_only_completed():void
+  +hide_completed():void
+  +show_all():void
+  +resettable():void
+}
+Main--|>Application
+Main->Controller
+Controller->list
+@enduml

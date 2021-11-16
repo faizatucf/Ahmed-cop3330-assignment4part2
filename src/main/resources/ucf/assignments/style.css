@@ -1,0 +1,13 @@
+#anchor {
+    -fx-background-color: #2B2A2A;
+}
+#table
+{
+    -fx-background-color: #2B2A2A;
+    -fx-border-color: white;
+    -fx-border-weight: 2px;
+}
+#footer
+{
+    -fx-background-color: #2B2A2A;
+}

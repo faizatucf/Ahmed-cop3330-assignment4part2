@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ucf.assignments.TestApp" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-11-12T15:40:57" hostname="FAIZ-RAZER" time="0.035">
+  <properties/>
+  <testcase name="Test if the user shall be able to display only the completed items in a todo list." classname="ucf.assignments.TestApp" time="0.01"/>
+  <testcase name="Test if the user can mark items as Incomplete successfully!" classname="ucf.assignments.TestApp" time="0.006"/>
+  <testcase name="Test if the user shall be able to remove two existing todo lists" classname="ucf.assignments.TestApp" time="0.008"/>
+  <testcase name="Test if loading external file into application works" classname="ucf.assignments.TestApp" time="0.0"/>
+  <testcase name="Test if save to directory works" classname="ucf.assignments.TestApp" time="0.001"/>
+  <testcase name="Check if date is being formatted correctly..." classname="ucf.assignments.TestApp" time="0.004"/>
+  <testcase name="Test if the user shall be able to display only the incompleted items in a todo list" classname="ucf.assignments.TestApp" time="0.0"/>
+  <testcase name="Test if the user shall be able to disable filter for completed and show all..." classname="ucf.assignments.TestApp" time="0.001"/>
+  <testcase name="Test if the user can mark items as complete or Incomplete successfully!" classname="ucf.assignments.TestApp" time="0.0"/>
+  <testcase name="Test if items selected task and date can be edited..." classname="ucf.assignments.TestApp" time="0.0"/>
+  <testcase name="Test if the user shall be able to remove an existing todo list" classname="ucf.assignments.TestApp" time="0.001"/>
+  <testcase name="Test if user is be able to add a new todo list" classname="ucf.assignments.TestApp" time="0.0"/>
+  <testcase name="Test if the user shall be able to Show Incompleted tasks and then switch to see only Completed ..." classname="ucf.assignments.TestApp" time="0.0"/>
+  <system-out><![CDATA[2001/03/12
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
